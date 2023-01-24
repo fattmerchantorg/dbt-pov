@@ -9845,3 +9845,655 @@ dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'Da
 2023-01-24 14:55:25.908143 (Thread-988): handling status request
 2023-01-24 14:55:25.908543 (Thread-988): 14:55:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8554dc10d0>]}
 2023-01-24 14:55:25.934146 (Thread-988): sending response (<Response 2347 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:55:41.267810 (Thread-989): 14:55:41  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-01-24 14:55:41.268038 (Thread-989): 14:55:41  Partial parsing enabled, no changes found, skipping parsing
+2023-01-24 14:55:41.268444 (Thread-989): 14:55:41  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_test
+
+2023-01-24 14:55:41.274059 (Thread-989): 14:55:41  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553ea3a0>]}
+2023-01-24 14:55:41.575718 (Thread-990): handling status request
+2023-01-24 14:55:41.576081 (Thread-990): 14:55:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8550380400>]}
+2023-01-24 14:55:41.576532 (Thread-990): sending response (<Response 1702 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:55:47.682032 (Thread-991): handling ps request
+2023-01-24 14:55:47.682398 (Thread-991): 14:55:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8550380910>]}
+2023-01-24 14:55:47.683293 (Thread-991): sending response (<Response 7147 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:55:55.261096 (Thread-992): handling status request
+2023-01-24 14:55:55.261460 (Thread-992): 14:55:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8550380d30>]}
+2023-01-24 14:55:55.261907 (Thread-992): sending response (<Response 1685 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:55:55.266346 (Thread-993): handling list request
+2023-01-24 14:55:55.266593 (Thread-993): 14:55:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8550380220>]}
+2023-01-24 14:55:55.295919 (Thread-993): 14:55:55  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8554e156a0>]}
+2023-01-24 14:55:55.296435 (Thread-993): 14:55:55  Found 6 models, 0 tests, 0 snapshots, 0 analyses, 327 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2023-01-24 14:55:55.296753 (Thread-993): 14:55:55  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f854d96fac0>]}
+2023-01-24 14:55:55.299030 (Thread-993): sending response (<Response 5138 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:55:55.328136 (Thread-994): handling ps request
+2023-01-24 14:55:55.328400 (Thread-994): 14:55:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8554e154f0>]}
+2023-01-24 14:55:55.329202 (Thread-994): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:55:55.689529 (Thread-995): handling status request
+2023-01-24 14:55:55.689879 (Thread-995): 14:55:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85559976d0>]}
+2023-01-24 14:55:55.690338 (Thread-995): sending response (<Response 1702 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:55:55.698306 (Thread-996): handling poll request
+2023-01-24 14:55:55.698549 (Thread-996): 14:55:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8554e15700>]}
+2023-01-24 14:55:55.699149 (Thread-996): sending response (<Response 10502 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:55:56.587725 (Thread-997): handling ps request
+2023-01-24 14:55:56.588128 (Thread-997): 14:55:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8550380310>]}
+2023-01-24 14:55:56.588998 (Thread-997): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:55:57.615998 (Thread-998): handling ps request
+2023-01-24 14:55:57.616383 (Thread-998): 14:55:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8550380820>]}
+2023-01-24 14:55:57.617230 (Thread-998): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:55:59.260467 (Thread-999): handling ps request
+2023-01-24 14:55:59.260833 (Thread-999): 14:55:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8505f02700>]}
+2023-01-24 14:55:59.261709 (Thread-999): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:56:39.119616 (Thread-1000): handling ps request
+2023-01-24 14:56:39.120005 (Thread-1000): 14:56:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8505f020d0>]}
+2023-01-24 14:56:39.120877 (Thread-1000): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:56:39.902342 (Thread-1001): handling ps request
+2023-01-24 14:56:39.902750 (Thread-1001): 14:56:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8505f02220>]}
+2023-01-24 14:56:39.903670 (Thread-1001): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 14:57:14.998207 (Thread-1002): 14:57:14  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-01-24 14:57:14.998600 (Thread-1002): 14:57:14  Partial parsing: updated file: dbt_pov://models/staging/registrations.sql
+2023-01-24 14:57:15.004188 (Thread-1002): 14:57:15  1699: static parser successfully parsed staging/registrations.sql
+2023-01-24 14:57:15.054846 (Thread-1002): 14:57:15  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_test
+
+2023-01-24 14:57:15.060227 (Thread-1002): 14:57:15  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553f3340>]}
+2023-01-24 14:57:15.237992 (Thread-1003): handling status request
+2023-01-24 14:57:15.238340 (Thread-1003): 14:57:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617a00>]}
+2023-01-24 14:57:15.238799 (Thread-1003): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:00:52.846843 (Thread-1004): handling status request
+2023-01-24 15:00:52.848383 (Thread-1004): 15:00:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617730>]}
+2023-01-24 15:00:52.848850 (Thread-1004): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:00:56.717072 (Thread-1005): handling ps request
+2023-01-24 15:00:56.717425 (Thread-1005): 15:00:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85556174c0>]}
+2023-01-24 15:00:56.718345 (Thread-1005): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:00:56.733607 (Thread-1006): handling ps request
+2023-01-24 15:00:56.733888 (Thread-1006): 15:00:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617220>]}
+2023-01-24 15:00:56.734684 (Thread-1006): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:00:57.146982 (Thread-1007): handling status request
+2023-01-24 15:00:57.154790 (Thread-1007): 15:00:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617070>]}
+2023-01-24 15:00:57.155280 (Thread-1007): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:01:01.826909 (Thread-1008): handling ps request
+2023-01-24 15:01:01.827279 (Thread-1008): 15:01:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561de50>]}
+2023-01-24 15:01:01.828167 (Thread-1008): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:01:01.838286 (Thread-1009): handling status request
+2023-01-24 15:01:01.838556 (Thread-1009): 15:01:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561dc10>]}
+2023-01-24 15:01:01.838963 (Thread-1009): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:01:02.096187 (Thread-1010): handling ps request
+2023-01-24 15:01:02.096539 (Thread-1010): 15:01:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561da30>]}
+2023-01-24 15:01:02.097387 (Thread-1010): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:01:06.066223 (Thread-1011): handling ps request
+2023-01-24 15:01:06.066587 (Thread-1011): 15:01:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561deb0>]}
+2023-01-24 15:01:06.067471 (Thread-1011): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:01:06.133125 (Thread-1012): handling ps request
+2023-01-24 15:01:06.133414 (Thread-1012): 15:01:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561d3d0>]}
+2023-01-24 15:01:06.134210 (Thread-1012): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:01:06.220089 (Thread-1013): handling status request
+2023-01-24 15:01:06.220466 (Thread-1013): 15:01:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555461fd0>]}
+2023-01-24 15:01:06.220918 (Thread-1013): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:04:48.783574 (Thread-1014): handling status request
+2023-01-24 15:04:48.785086 (Thread-1014): 15:04:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561de20>]}
+2023-01-24 15:04:48.785559 (Thread-1014): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:13:53.778082 (Thread-1015): handling status request
+2023-01-24 15:13:53.779526 (Thread-1015): 15:13:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855562ec70>]}
+2023-01-24 15:13:53.780028 (Thread-1015): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:41.065059 (Thread-1016): handling status request
+2023-01-24 15:28:41.066700 (Thread-1016): 15:28:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855562e340>]}
+2023-01-24 15:28:41.088646 (Thread-1016): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:48.067569 (Thread-1017): handling status request
+2023-01-24 15:28:48.067930 (Thread-1017): 15:28:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855562e0d0>]}
+2023-01-24 15:28:48.068384 (Thread-1017): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:49.560852 (Thread-1018): handling ps request
+2023-01-24 15:28:49.561207 (Thread-1018): 15:28:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855562e220>]}
+2023-01-24 15:28:49.562084 (Thread-1018): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:49.572599 (Thread-1019): handling poll request
+2023-01-24 15:28:49.572859 (Thread-1019): 15:28:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561d190>]}
+2023-01-24 15:28:49.573456 (Thread-1019): sending response (<Response 42580 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:49.803518 (Thread-1020): handling ps request
+2023-01-24 15:28:49.803916 (Thread-1020): 15:28:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561d2e0>]}
+2023-01-24 15:28:49.804780 (Thread-1020): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:49.880826 (Thread-1021): handling status request
+2023-01-24 15:28:49.881135 (Thread-1021): 15:28:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85556286d0>]}
+2023-01-24 15:28:49.881578 (Thread-1021): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:52.697626 (Thread-1022): handling ps request
+2023-01-24 15:28:52.697991 (Thread-1022): 15:28:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555628370>]}
+2023-01-24 15:28:52.698891 (Thread-1022): sending response (<Response 7438 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:52.710055 (Thread-1023): handling run_sql request
+2023-01-24 15:28:52.710309 (Thread-1023): 15:28:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555628c40>]}
+2023-01-24 15:28:54.923500 (Thread-1023): sending response (<Response 133 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:54.954958 (MainThread): 15:28:54  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '26587682-4d94-4e74-a354-5edb6c6239d5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f80465b5280>]}
+2023-01-24 15:28:54.955505 (MainThread): 15:28:54  Found 6 models, 0 tests, 0 snapshots, 0 analyses, 327 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2023-01-24 15:28:54.956073 (Thread-1): 15:28:54  Acquiring new redshift connection "rpc.dbt_pov.request"
+2023-01-24 15:28:54.956217 (Thread-1): 15:28:54  Began compiling node rpc.dbt_pov.request
+2023-01-24 15:28:54.956307 (Thread-1): 15:28:54  Compiling rpc.dbt_pov.request
+2023-01-24 15:28:54.960368 (Thread-1): 15:28:54  finished collecting timing info
+2023-01-24 15:28:54.960504 (Thread-1): 15:28:54  Began executing node rpc.dbt_pov.request
+2023-01-24 15:28:54.960602 (Thread-1): 15:28:54  Using redshift connection "rpc.dbt_pov.request"
+2023-01-24 15:28:54.960674 (Thread-1): 15:28:54  On rpc.dbt_pov.request: 
+
+select
+    d.dealid as deal_id,
+    d.property_backend_processor__value as backend_processor,
+    o.firstname + ' ' + o.lastname as deal_owner,
+    o.email as deal_owner_email,
+    d.property_createdate__value as created_at,
+    d.property_createdate__timestamp as created_at_timestamp,
+    d.property_closedate__value as closed_at,
+    d.property_closedate__timestamp as closed_at_timestamp,
+    case
+        when d.property_first_became_customer_applied_100___value = ''
+        then timestamp 'epoch' + cast(0 as float) / 1000 * interval '1 second'
+        else
+            timestamp 'epoch'
+            + cast(d.property_first_became_customer_applied_100___value as float)
+            / 1000
+            * interval '1 second'
+    end as first_became_customer_applied_100,
+    d.property_first_became_customer_applied_100___timestamp
+    as first_became_customer_applied_100_timestamp,
+    s.label as deal_stage,
+    s.closedwon as closed_won,
+    d.property_hs_manual_forecast_category__value as manual_forecast_category,
+    dp.label as pipeline,
+    left(d.property_dealname__value, 200) as deal_name,
+    d.property_amount__value__double as amount,
+    d.property_annual_volume__value__double as approved_volume,
+    d.property_omid__value as stax_merchant_id,
+    d.property_mid__value as processor_merchant_id,
+    d.property_hubspot_team_id__value as hubspot_team_id,
+    case
+        when d.property_pended_date__value = ''
+        then timestamp 'epoch' + cast(0 as float) / 1000 * interval '1 second'
+        else
+            timestamp 'epoch'
+            + cast(d.property_pended_date__value as float) / 1000 * interval '1 second'
+    end as pended_at,
+    d.property_pended_date__timestamp as pended_at_timestamp,
+    case
+        when d.property_first_became_pended__value = ''
+        then timestamp 'epoch' + cast(0 as float) / 1000 * interval '1 second'
+        else
+            timestamp 'epoch'
+            + cast(d.property_first_became_pended__value as float)
+            / 1000
+            * interval '1 second'
+    end as first_became_pended,
+    d.property_first_became_pended__timestamp as first_became_pended_timestamp,
+    case
+        when d.property_first_became_internal_pend__value = ''
+        then timestamp 'epoch' + cast(0 as float) / 1000 * interval '1 second'
+        else
+            timestamp 'epoch'
+            + cast(d.property_first_became_internal_pend__value as float)
+            / 1000
+            * interval '1 second'
+    end as first_became_internal_pended,
+    d.property_first_became_internal_pend__timestamp
+    as first_became_internal_pended_timestamp,
+    d.property_underwriting_dropped_rejected_lost_reason__timestamp as rejected_at,
+    d.property_underwriting_dropped_rejected_lost_reason__value as reject_reason,
+    d.property_attrition_category__value as attrition_category,
+    d.property_attrition_core__value as attrition_subcategory,
+    case
+        when d.property_first_became_submitted__value = ''
+        then timestamp 'epoch' + cast(0 as float) / 1000 * interval '1 second'
+        else
+            timestamp 'epoch'
+            + cast(d.property_first_became_submitted__value as float)
+            / 1000
+            * interval '1 second'
+    end as submitted_at,
+    d.property_first_became_submitted__timestamp as submitted_at_timestamp,
+    case
+        when d.property_eligible_for_subscription_repricing__value = 'true'
+        then true
+        else false
+    end as "is_repricing_eligible",
+    left(d.property_company_name__value, 100) as company_name,
+    d.property_source__value as deal_source,
+    d.property_secondary_mid__value as secondary_mid,
+    case
+        when d.property_customer_attrition_date__value = ''
+        then timestamp 'epoch' + cast(0 as float) / 1000 * interval '1 second'
+        else
+            timestamp 'epoch'
+            + cast(d.property_customer_attrition_date__value as float)
+            / 1000
+            * interval '1 second'
+    end as attrition_date,
+    d.property_billable_days_active__value as billable_days_active,
+    d.property_product_type__value as product_type
+from "redhouse"."dbt_mkondapi"."deals" as d  -- crmsales.deals d
+left outer join
+    "redhouse"."dbt_mkondapi"."deal_pipelines__stages" as s on s.stageid = d.property_dealstage__value --crmsales.deal_pipelines__stages s
+left outer join  "redhouse"."dbt_mkondapi"."owners" as o on d.property_hubspot_owner_id__value = o.ownerid
+left outer join "redhouse"."dbt_mkondapi"."deal_pipelines" dp on d.property_pipeline__value = dp.pipelineid
+limit 500
+/* limit added automatically by dbt cloud */
+2023-01-24 15:28:54.960747 (Thread-1): 15:28:54  Opening a new connection, currently in state init
+2023-01-24 15:28:54.960820 (Thread-1): 15:28:54  Redshift adapter: Connecting to Redshift using 'database' credentials
+2023-01-24 15:28:55.242984 (Thread-1024): handling ps request
+2023-01-24 15:28:55.243442 (Thread-1024): 15:28:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555635c70>]}
+2023-01-24 15:28:55.244952 (Thread-1024): sending response (<Response 7909 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:55.265876 (Thread-1025): handling ps request
+2023-01-24 15:28:55.266175 (Thread-1025): 15:28:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555635a30>]}
+2023-01-24 15:28:55.267081 (Thread-1025): sending response (<Response 7910 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:55.534705 (Thread-1): 15:28:55  Postgres adapter: Postgres error: Could not find parent table for alias "redhouse.dbt_mkondapi.deals".
+
+2023-01-24 15:28:55.534939 (Thread-1): 15:28:55  finished collecting timing info
+2023-01-24 15:28:55.535073 (Thread-1): 15:28:55  On rpc.dbt_pov.request: Close
+2023-01-24 15:28:55.535321 (Thread-1): Got an exception: Database Error
+  Could not find parent table for alias "redhouse.dbt_mkondapi.deals".
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", line 65, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 70, in add_query
+    cursor.execute(sql, bindings)
+psycopg2.errors.InternalError_: Could not find parent table for alias "redhouse.dbt_mkondapi.deals".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 385, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 338, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 429, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 108, in execute
+    _, execute_result = self.adapter.execute(compiled_sql, fetch=True)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 278, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 123, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 78, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", line 76, in exception_handler
+    raise dbt.exceptions.DatabaseException(str(e).strip()) from e
+dbt.exceptions.DatabaseException: Database Error
+  Could not find parent table for alias "redhouse.dbt_mkondapi.deals".
+2023-01-24 15:28:55.536683 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system.sql)\n  Could not find parent table for alias "redhouse.dbt_mkondapi.deals".', 'raw_code': '{{ config(materialized="table", unique_key="deal_id", sort="created_at") }}\n\nselect\n    d.dealid as deal_id,\n    d.property_backend_processor__value as backend_processor,\n    o.firstname + \' \' + o.lastname as deal_owner,\n    o.email as deal_owner_email,\n    d.property_createdate__value as created_at,\n    d.property_createdate__timestamp as created_at_timestamp,\n    d.property_closedate__value as closed_at,\n    d.property_closedate__timestamp as closed_at_timestamp,\n    case\n        when d.property_first_became_customer_applied_100___value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_customer_applied_100___value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_customer_applied_100,\n    d.property_first_became_customer_applied_100___timestamp\n    as first_became_customer_applied_100_timestamp,\n    s.label as deal_stage,\n    s.closedwon as closed_won,\n    d.property_hs_manual_forecast_category__value as manual_forecast_category,\n    dp.label as pipeline,\n    left(d.property_dealname__value, 200) as deal_name,\n    d.property_amount__value__double as amount,\n    d.property_annual_volume__value__double as approved_volume,\n    d.property_omid__value as stax_merchant_id,\n    d.property_mid__value as processor_merchant_id,\n    d.property_hubspot_team_id__value as hubspot_team_id,\n    case\n        when d.property_pended_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_pended_date__value as float) / 1000 * interval \'1 second\'\n    end as pended_at,\n    d.property_pended_date__timestamp as pended_at_timestamp,\n    case\n        when d.property_first_became_pended__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_pended__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_pended,\n    d.property_first_became_pended__timestamp as first_became_pended_timestamp,\n    case\n        when d.property_first_became_internal_pend__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_internal_pend__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_internal_pended,\n    d.property_first_became_internal_pend__timestamp\n    as first_became_internal_pended_timestamp,\n    d.property_underwriting_dropped_rejected_lost_reason__timestamp as rejected_at,\n    d.property_underwriting_dropped_rejected_lost_reason__value as reject_reason,\n    d.property_attrition_category__value as attrition_category,\n    d.property_attrition_core__value as attrition_subcategory,\n    case\n        when d.property_first_became_submitted__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_submitted__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as submitted_at,\n    d.property_first_became_submitted__timestamp as submitted_at_timestamp,\n    case\n        when d.property_eligible_for_subscription_repricing__value = \'true\'\n        then true\n        else false\n    end as "is_repricing_eligible",\n    left(d.property_company_name__value, 100) as company_name,\n    d.property_source__value as deal_source,\n    d.property_secondary_mid__value as secondary_mid,\n    case\n        when d.property_customer_attrition_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_customer_attrition_date__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as attrition_date,\n    d.property_billable_days_active__value as billable_days_active,\n    d.property_product_type__value as product_type\nfrom {{ ref("deals") }} as d  -- crmsales.deals d\nleft outer join\n    {{ ref("deal_pipelines__stages") }} as s on s.stageid = d.property_dealstage__value --crmsales.deal_pipelines__stages s\nleft outer join  {{ ref("owners") }} as o on d.property_hubspot_owner_id__value = o.ownerid\nleft outer join {{ ref("deal_pipelines") }} dp on d.property_pipeline__value = dp.pipelineid\nlimit 500\n/* limit added automatically by dbt cloud */', 'compiled_code': '\n\nselect\n    d.dealid as deal_id,\n    d.property_backend_processor__value as backend_processor,\n    o.firstname + \' \' + o.lastname as deal_owner,\n    o.email as deal_owner_email,\n    d.property_createdate__value as created_at,\n    d.property_createdate__timestamp as created_at_timestamp,\n    d.property_closedate__value as closed_at,\n    d.property_closedate__timestamp as closed_at_timestamp,\n    case\n        when d.property_first_became_customer_applied_100___value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_customer_applied_100___value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_customer_applied_100,\n    d.property_first_became_customer_applied_100___timestamp\n    as first_became_customer_applied_100_timestamp,\n    s.label as deal_stage,\n    s.closedwon as closed_won,\n    d.property_hs_manual_forecast_category__value as manual_forecast_category,\n    dp.label as pipeline,\n    left(d.property_dealname__value, 200) as deal_name,\n    d.property_amount__value__double as amount,\n    d.property_annual_volume__value__double as approved_volume,\n    d.property_omid__value as stax_merchant_id,\n    d.property_mid__value as processor_merchant_id,\n    d.property_hubspot_team_id__value as hubspot_team_id,\n    case\n        when d.property_pended_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_pended_date__value as float) / 1000 * interval \'1 second\'\n    end as pended_at,\n    d.property_pended_date__timestamp as pended_at_timestamp,\n    case\n        when d.property_first_became_pended__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_pended__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_pended,\n    d.property_first_became_pended__timestamp as first_became_pended_timestamp,\n    case\n        when d.property_first_became_internal_pend__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_internal_pend__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_internal_pended,\n    d.property_first_became_internal_pend__timestamp\n    as first_became_internal_pended_timestamp,\n    d.property_underwriting_dropped_rejected_lost_reason__timestamp as rejected_at,\n    d.property_underwriting_dropped_rejected_lost_reason__value as reject_reason,\n    d.property_attrition_category__value as attrition_category,\n    d.property_attrition_core__value as attrition_subcategory,\n    case\n        when d.property_first_became_submitted__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_submitted__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as submitted_at,\n    d.property_first_became_submitted__timestamp as submitted_at_timestamp,\n    case\n        when d.property_eligible_for_subscription_repricing__value = \'true\'\n        then true\n        else false\n    end as "is_repricing_eligible",\n    left(d.property_company_name__value, 100) as company_name,\n    d.property_source__value as deal_source,\n    d.property_secondary_mid__value as secondary_mid,\n    case\n        when d.property_customer_attrition_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_customer_attrition_date__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as attrition_date,\n    d.property_billable_days_active__value as billable_days_active,\n    d.property_product_type__value as product_type\nfrom "redhouse"."dbt_mkondapi"."deals" as d  -- crmsales.deals d\nleft outer join\n    "redhouse"."dbt_mkondapi"."deal_pipelines__stages" as s on s.stageid = d.property_dealstage__value --crmsales.deal_pipelines__stages s\nleft outer join  "redhouse"."dbt_mkondapi"."owners" as o on d.property_hubspot_owner_id__value = o.ownerid\nleft outer join "redhouse"."dbt_mkondapi"."deal_pipelines" dp on d.property_pipeline__value = dp.pipelineid\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 148, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 403, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 68, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system.sql)\n  Could not find parent table for alias "redhouse.dbt_mkondapi.deals".', 'raw_code': '{{ config(materialized="table", unique_key="deal_id", sort="created_at") }}\n\nselect\n    d.dealid as deal_id,\n    d.property_backend_processor__value as backend_processor,\n    o.firstname + \' \' + o.lastname as deal_owner,\n    o.email as deal_owner_email,\n    d.property_createdate__value as created_at,\n    d.property_createdate__timestamp as created_at_timestamp,\n    d.property_closedate__value as closed_at,\n    d.property_closedate__timestamp as closed_at_timestamp,\n    case\n        when d.property_first_became_customer_applied_100___value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_customer_applied_100___value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_customer_applied_100,\n    d.property_first_became_customer_applied_100___timestamp\n    as first_became_customer_applied_100_timestamp,\n    s.label as deal_stage,\n    s.closedwon as closed_won,\n    d.property_hs_manual_forecast_category__value as manual_forecast_category,\n    dp.label as pipeline,\n    left(d.property_dealname__value, 200) as deal_name,\n    d.property_amount__value__double as amount,\n    d.property_annual_volume__value__double as approved_volume,\n    d.property_omid__value as stax_merchant_id,\n    d.property_mid__value as processor_merchant_id,\n    d.property_hubspot_team_id__value as hubspot_team_id,\n    case\n        when d.property_pended_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_pended_date__value as float) / 1000 * interval \'1 second\'\n    end as pended_at,\n    d.property_pended_date__timestamp as pended_at_timestamp,\n    case\n        when d.property_first_became_pended__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_pended__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_pended,\n    d.property_first_became_pended__timestamp as first_became_pended_timestamp,\n    case\n        when d.property_first_became_internal_pend__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_internal_pend__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_internal_pended,\n    d.property_first_became_internal_pend__timestamp\n    as first_became_internal_pended_timestamp,\n    d.property_underwriting_dropped_rejected_lost_reason__timestamp as rejected_at,\n    d.property_underwriting_dropped_rejected_lost_reason__value as reject_reason,\n    d.property_attrition_category__value as attrition_category,\n    d.property_attrition_core__value as attrition_subcategory,\n    case\n        when d.property_first_became_submitted__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_submitted__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as submitted_at,\n    d.property_first_became_submitted__timestamp as submitted_at_timestamp,\n    case\n        when d.property_eligible_for_subscription_repricing__value = \'true\'\n        then true\n        else false\n    end as "is_repricing_eligible",\n    left(d.property_company_name__value, 100) as company_name,\n    d.property_source__value as deal_source,\n    d.property_secondary_mid__value as secondary_mid,\n    case\n        when d.property_customer_attrition_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_customer_attrition_date__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as attrition_date,\n    d.property_billable_days_active__value as billable_days_active,\n    d.property_product_type__value as product_type\nfrom {{ ref("deals") }} as d  -- crmsales.deals d\nleft outer join\n    {{ ref("deal_pipelines__stages") }} as s on s.stageid = d.property_dealstage__value --crmsales.deal_pipelines__stages s\nleft outer join  {{ ref("owners") }} as o on d.property_hubspot_owner_id__value = o.ownerid\nleft outer join {{ ref("deal_pipelines") }} dp on d.property_pipeline__value = dp.pipelineid\nlimit 500\n/* limit added automatically by dbt cloud */', 'compiled_code': '\n\nselect\n    d.dealid as deal_id,\n    d.property_backend_processor__value as backend_processor,\n    o.firstname + \' \' + o.lastname as deal_owner,\n    o.email as deal_owner_email,\n    d.property_createdate__value as created_at,\n    d.property_createdate__timestamp as created_at_timestamp,\n    d.property_closedate__value as closed_at,\n    d.property_closedate__timestamp as closed_at_timestamp,\n    case\n        when d.property_first_became_customer_applied_100___value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_customer_applied_100___value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_customer_applied_100,\n    d.property_first_became_customer_applied_100___timestamp\n    as first_became_customer_applied_100_timestamp,\n    s.label as deal_stage,\n    s.closedwon as closed_won,\n    d.property_hs_manual_forecast_category__value as manual_forecast_category,\n    dp.label as pipeline,\n    left(d.property_dealname__value, 200) as deal_name,\n    d.property_amount__value__double as amount,\n    d.property_annual_volume__value__double as approved_volume,\n    d.property_omid__value as stax_merchant_id,\n    d.property_mid__value as processor_merchant_id,\n    d.property_hubspot_team_id__value as hubspot_team_id,\n    case\n        when d.property_pended_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_pended_date__value as float) / 1000 * interval \'1 second\'\n    end as pended_at,\n    d.property_pended_date__timestamp as pended_at_timestamp,\n    case\n        when d.property_first_became_pended__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_pended__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_pended,\n    d.property_first_became_pended__timestamp as first_became_pended_timestamp,\n    case\n        when d.property_first_became_internal_pend__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_internal_pend__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_internal_pended,\n    d.property_first_became_internal_pend__timestamp\n    as first_became_internal_pended_timestamp,\n    d.property_underwriting_dropped_rejected_lost_reason__timestamp as rejected_at,\n    d.property_underwriting_dropped_rejected_lost_reason__value as reject_reason,\n    d.property_attrition_category__value as attrition_category,\n    d.property_attrition_core__value as attrition_subcategory,\n    case\n        when d.property_first_became_submitted__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_submitted__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as submitted_at,\n    d.property_first_became_submitted__timestamp as submitted_at_timestamp,\n    case\n        when d.property_eligible_for_subscription_repricing__value = \'true\'\n        then true\n        else false\n    end as "is_repricing_eligible",\n    left(d.property_company_name__value, 100) as company_name,\n    d.property_source__value as deal_source,\n    d.property_secondary_mid__value as secondary_mid,\n    case\n        when d.property_customer_attrition_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_customer_attrition_date__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as attrition_date,\n    d.property_billable_days_active__value as billable_days_active,\n    d.property_product_type__value as product_type\nfrom "redhouse"."dbt_mkondapi"."deals" as d  -- crmsales.deals d\nleft outer join\n    "redhouse"."dbt_mkondapi"."deal_pipelines__stages" as s on s.stageid = d.property_dealstage__value --crmsales.deal_pipelines__stages s\nleft outer join  "redhouse"."dbt_mkondapi"."owners" as o on d.property_hubspot_owner_id__value = o.ownerid\nleft outer join "redhouse"."dbt_mkondapi"."deal_pipelines" dp on d.property_pipeline__value = dp.pipelineid\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2023-01-24 15:28:55.586693 (Thread-1026): handling poll request
+2023-01-24 15:28:55.587046 (Thread-1026): 15:28:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555635a00>]}
+2023-01-24 15:28:55.587920 (Thread-1026): sending response (<Response 33229 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:55.603007 (Thread-1027): handling status request
+2023-01-24 15:28:55.603315 (Thread-1027): 15:28:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85556353a0>]}
+2023-01-24 15:28:55.603829 (Thread-1027): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:55.638266 (Thread-1028): handling poll request
+2023-01-24 15:28:55.639713 (Thread-1028): 15:28:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85556355e0>]}
+2023-01-24 15:28:55.640472 (Thread-1028): sending response (<Response 33229 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:57.528574 (Thread-1029): handling poll request
+2023-01-24 15:28:57.528936 (Thread-1029): 15:28:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85556355b0>]}
+2023-01-24 15:28:57.529711 (Thread-1029): sending response (<Response 42580 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:57.972503 (Thread-1030): handling ps request
+2023-01-24 15:28:57.972873 (Thread-1030): 15:28:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855562e490>]}
+2023-01-24 15:28:57.973747 (Thread-1030): sending response (<Response 7933 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:58.144299 (Thread-1031): handling poll request
+2023-01-24 15:28:58.144668 (Thread-1031): 15:28:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f854d48c910>]}
+2023-01-24 15:28:58.145369 (Thread-1031): sending response (<Response 42580 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:28:58.961630 (Thread-1032): handling status request
+2023-01-24 15:28:58.961997 (Thread-1032): 15:28:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855562ee20>]}
+2023-01-24 15:28:58.962475 (Thread-1032): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:29:04.630741 (Thread-1033): handling status request
+2023-01-24 15:29:04.631103 (Thread-1033): 15:29:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617e80>]}
+2023-01-24 15:29:04.631614 (Thread-1033): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:29:09.752167 (Thread-1034): handling status request
+2023-01-24 15:29:09.752573 (Thread-1034): 15:29:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555635f70>]}
+2023-01-24 15:29:09.753032 (Thread-1034): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:29:10.314822 (Thread-1035): handling status request
+2023-01-24 15:29:10.315188 (Thread-1035): 15:29:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617490>]}
+2023-01-24 15:29:10.315703 (Thread-1035): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:29:23.205825 (Thread-1036): handling status request
+2023-01-24 15:29:23.206203 (Thread-1036): 15:29:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617280>]}
+2023-01-24 15:29:23.206684 (Thread-1036): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:29:23.936218 (Thread-1037): handling poll request
+2023-01-24 15:29:23.936583 (Thread-1037): 15:29:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85556177c0>]}
+2023-01-24 15:29:23.940150 (Thread-1037): sending response (<Response 45228 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:29:24.357949 (Thread-1038): handling status request
+2023-01-24 15:29:24.358304 (Thread-1038): 15:29:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617b80>]}
+2023-01-24 15:29:24.358763 (Thread-1038): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:29:24.366843 (Thread-1039): handling ps request
+2023-01-24 15:29:24.367079 (Thread-1039): 15:29:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617910>]}
+2023-01-24 15:29:24.367878 (Thread-1039): sending response (<Response 7933 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:29:55.939045 (Thread-1040): handling status request
+2023-01-24 15:29:55.939445 (Thread-1040): 15:29:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555628160>]}
+2023-01-24 15:29:55.939910 (Thread-1040): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:29:58.458502 (Thread-1041): handling status request
+2023-01-24 15:29:58.458870 (Thread-1041): 15:29:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555628dc0>]}
+2023-01-24 15:29:58.459347 (Thread-1041): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:05.293441 (Thread-1042): handling status request
+2023-01-24 15:30:05.293837 (Thread-1042): 15:30:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555635f70>]}
+2023-01-24 15:30:05.294294 (Thread-1042): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:05.411073 (Thread-1043): handling ps request
+2023-01-24 15:30:05.411471 (Thread-1043): 15:30:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555628730>]}
+2023-01-24 15:30:05.412362 (Thread-1043): sending response (<Response 7933 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:06.017654 (Thread-1044): handling ps request
+2023-01-24 15:30:06.018015 (Thread-1044): 15:30:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561d2b0>]}
+2023-01-24 15:30:06.018886 (Thread-1044): sending response (<Response 7933 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:06.823895 (Thread-1045): handling status request
+2023-01-24 15:30:06.824305 (Thread-1045): 15:30:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561d820>]}
+2023-01-24 15:30:06.824781 (Thread-1045): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:12.355546 (Thread-1046): handling ps request
+2023-01-24 15:30:12.355952 (Thread-1046): 15:30:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561da30>]}
+2023-01-24 15:30:12.363674 (Thread-1047): handling run_sql request
+2023-01-24 15:30:12.363968 (Thread-1047): 15:30:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555642730>]}
+2023-01-24 15:30:12.379472 (Thread-1046): sending response (<Response 7933 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:14.624200 (Thread-1047): sending response (<Response 133 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:14.654944 (MainThread): 15:30:14  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ef5aaced-1d17-4efd-809e-aabb5c899806', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f27b48422e0>]}
+2023-01-24 15:30:14.655479 (MainThread): 15:30:14  Found 6 models, 0 tests, 0 snapshots, 0 analyses, 327 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2023-01-24 15:30:14.656047 (Thread-1): 15:30:14  Acquiring new redshift connection "rpc.dbt_pov.request"
+2023-01-24 15:30:14.656191 (Thread-1): 15:30:14  Began compiling node rpc.dbt_pov.request
+2023-01-24 15:30:14.656279 (Thread-1): 15:30:14  Compiling rpc.dbt_pov.request
+2023-01-24 15:30:14.660318 (Thread-1): 15:30:14  finished collecting timing info
+2023-01-24 15:30:14.660484 (Thread-1): 15:30:14  Began executing node rpc.dbt_pov.request
+2023-01-24 15:30:14.660589 (Thread-1): 15:30:14  Using redshift connection "rpc.dbt_pov.request"
+2023-01-24 15:30:14.660664 (Thread-1): 15:30:14  On rpc.dbt_pov.request: 
+
+select
+    d.dealid as deal_id,
+    d.property_backend_processor__value as backend_processor,
+    o.firstname + ' ' + o.lastname as deal_owner,
+    o.email as deal_owner_email,
+    d.property_createdate__value as created_at,
+    d.property_createdate__timestamp as created_at_timestamp,
+    d.property_closedate__value as closed_at,
+    d.property_closedate__timestamp as closed_at_timestamp,
+    case
+        when d.property_first_became_customer_applied_100___value = ''
+        then timestamp 'epoch' + cast(0 as float) / 1000 * interval '1 second'
+        else
+            timestamp 'epoch'
+            + cast(d.property_first_became_customer_applied_100___value as float)
+            / 1000
+            * interval '1 second'
+    end as first_became_customer_applied_100,
+    d.property_first_became_customer_applied_100___timestamp
+    as first_became_customer_applied_100_timestamp,
+    s.label as deal_stage,
+    s.closedwon as closed_won,
+    d.property_hs_manual_forecast_category__value as manual_forecast_category,
+    dp.label as pipeline,
+    left(d.property_dealname__value, 200) as deal_name,
+    d.property_amount__value__double as amount,
+    d.property_annual_volume__value__double as approved_volume,
+    d.property_omid__value as stax_merchant_id,
+    d.property_mid__value as processor_merchant_id,
+    d.property_hubspot_team_id__value as hubspot_team_id,
+    case
+        when d.property_pended_date__value = ''
+        then timestamp 'epoch' + cast(0 as float) / 1000 * interval '1 second'
+        else
+            timestamp 'epoch'
+            + cast(d.property_pended_date__value as float) / 1000 * interval '1 second'
+    end as pended_at,
+    d.property_pended_date__timestamp as pended_at_timestamp,
+    case
+        when d.property_first_became_pended__value = ''
+        then timestamp 'epoch' + cast(0 as float) / 1000 * interval '1 second'
+        else
+            timestamp 'epoch'
+            + cast(d.property_first_became_pended__value as float)
+            / 1000
+            * interval '1 second'
+    end as first_became_pended,
+    d.property_first_became_pended__timestamp as first_became_pended_timestamp,
+    case
+        when d.property_first_became_internal_pend__value = ''
+        then timestamp 'epoch' + cast(0 as float) / 1000 * interval '1 second'
+        else
+            timestamp 'epoch'
+            + cast(d.property_first_became_internal_pend__value as float)
+            / 1000
+            * interval '1 second'
+    end as first_became_internal_pended,
+    d.property_first_became_internal_pend__timestamp
+    as first_became_internal_pended_timestamp,
+    d.property_underwriting_dropped_rejected_lost_reason__timestamp as rejected_at,
+    d.property_underwriting_dropped_rejected_lost_reason__value as reject_reason,
+    d.property_attrition_category__value as attrition_category,
+    d.property_attrition_core__value as attrition_subcategory,
+    case
+        when d.property_first_became_submitted__value = ''
+        then timestamp 'epoch' + cast(0 as float) / 1000 * interval '1 second'
+        else
+            timestamp 'epoch'
+            + cast(d.property_first_became_submitted__value as float)
+            / 1000
+            * interval '1 second'
+    end as submitted_at,
+    d.property_first_became_submitted__timestamp as submitted_at_timestamp,
+    case
+        when d.property_eligible_for_subscription_repricing__value = 'true'
+        then true
+        else false
+    end as "is_repricing_eligible",
+    left(d.property_company_name__value, 100) as company_name,
+    d.property_source__value as deal_source,
+    d.property_secondary_mid__value as secondary_mid,
+    case
+        when d.property_customer_attrition_date__value = ''
+        then timestamp 'epoch' + cast(0 as float) / 1000 * interval '1 second'
+        else
+            timestamp 'epoch'
+            + cast(d.property_customer_attrition_date__value as float)
+            / 1000
+            * interval '1 second'
+    end as attrition_date,
+    d.property_billable_days_active__value as billable_days_active,
+    d.property_product_type__value as product_type
+from "redhouse"."dbt_mkondapi"."deals" as d  -- crmsales.deals d
+left outer join
+    "redhouse"."dbt_mkondapi"."deal_pipelines__stages" as s on s.stageid = d.property_dealstage__value --crmsales.deal_pipelines__stages s
+left outer join  "redhouse"."dbt_mkondapi"."owners" as o on d.property_hubspot_owner_id__value = o.ownerid
+left outer join "redhouse"."dbt_mkondapi"."deal_pipelines" dp on d.property_pipeline__value = dp.pipelineid
+limit 500
+/* limit added automatically by dbt cloud */
+2023-01-24 15:30:14.660739 (Thread-1): 15:30:14  Opening a new connection, currently in state init
+2023-01-24 15:30:14.660814 (Thread-1): 15:30:14  Redshift adapter: Connecting to Redshift using 'database' credentials
+2023-01-24 15:30:14.989958 (Thread-1048): handling ps request
+2023-01-24 15:30:14.990420 (Thread-1048): 15:30:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855563a610>]}
+2023-01-24 15:30:14.991947 (Thread-1048): sending response (<Response 8463 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:15.001587 (Thread-1049): handling ps request
+2023-01-24 15:30:15.001845 (Thread-1049): 15:30:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855563a5e0>]}
+2023-01-24 15:30:15.002683 (Thread-1049): sending response (<Response 8463 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:15.229840 (Thread-1): 15:30:15  Postgres adapter: Postgres error: Could not find parent table for alias "redhouse.dbt_mkondapi.deals".
+
+2023-01-24 15:30:15.230069 (Thread-1): 15:30:15  finished collecting timing info
+2023-01-24 15:30:15.230200 (Thread-1): 15:30:15  On rpc.dbt_pov.request: Close
+2023-01-24 15:30:15.230444 (Thread-1): Got an exception: Database Error
+  Could not find parent table for alias "redhouse.dbt_mkondapi.deals".
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", line 65, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 70, in add_query
+    cursor.execute(sql, bindings)
+psycopg2.errors.InternalError_: Could not find parent table for alias "redhouse.dbt_mkondapi.deals".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 385, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 338, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 429, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 108, in execute
+    _, execute_result = self.adapter.execute(compiled_sql, fetch=True)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 278, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 123, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 78, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", line 76, in exception_handler
+    raise dbt.exceptions.DatabaseException(str(e).strip()) from e
+dbt.exceptions.DatabaseException: Database Error
+  Could not find parent table for alias "redhouse.dbt_mkondapi.deals".
+2023-01-24 15:30:15.231809 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system.sql)\n  Could not find parent table for alias "redhouse.dbt_mkondapi.deals".', 'raw_code': '{{ config(materialized="table", unique_key="deal_id", sort="created_at") }}\n\nselect\n    d.dealid as deal_id,\n    d.property_backend_processor__value as backend_processor,\n    o.firstname + \' \' + o.lastname as deal_owner,\n    o.email as deal_owner_email,\n    d.property_createdate__value as created_at,\n    d.property_createdate__timestamp as created_at_timestamp,\n    d.property_closedate__value as closed_at,\n    d.property_closedate__timestamp as closed_at_timestamp,\n    case\n        when d.property_first_became_customer_applied_100___value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_customer_applied_100___value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_customer_applied_100,\n    d.property_first_became_customer_applied_100___timestamp\n    as first_became_customer_applied_100_timestamp,\n    s.label as deal_stage,\n    s.closedwon as closed_won,\n    d.property_hs_manual_forecast_category__value as manual_forecast_category,\n    dp.label as pipeline,\n    left(d.property_dealname__value, 200) as deal_name,\n    d.property_amount__value__double as amount,\n    d.property_annual_volume__value__double as approved_volume,\n    d.property_omid__value as stax_merchant_id,\n    d.property_mid__value as processor_merchant_id,\n    d.property_hubspot_team_id__value as hubspot_team_id,\n    case\n        when d.property_pended_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_pended_date__value as float) / 1000 * interval \'1 second\'\n    end as pended_at,\n    d.property_pended_date__timestamp as pended_at_timestamp,\n    case\n        when d.property_first_became_pended__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_pended__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_pended,\n    d.property_first_became_pended__timestamp as first_became_pended_timestamp,\n    case\n        when d.property_first_became_internal_pend__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_internal_pend__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_internal_pended,\n    d.property_first_became_internal_pend__timestamp\n    as first_became_internal_pended_timestamp,\n    d.property_underwriting_dropped_rejected_lost_reason__timestamp as rejected_at,\n    d.property_underwriting_dropped_rejected_lost_reason__value as reject_reason,\n    d.property_attrition_category__value as attrition_category,\n    d.property_attrition_core__value as attrition_subcategory,\n    case\n        when d.property_first_became_submitted__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_submitted__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as submitted_at,\n    d.property_first_became_submitted__timestamp as submitted_at_timestamp,\n    case\n        when d.property_eligible_for_subscription_repricing__value = \'true\'\n        then true\n        else false\n    end as "is_repricing_eligible",\n    left(d.property_company_name__value, 100) as company_name,\n    d.property_source__value as deal_source,\n    d.property_secondary_mid__value as secondary_mid,\n    case\n        when d.property_customer_attrition_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_customer_attrition_date__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as attrition_date,\n    d.property_billable_days_active__value as billable_days_active,\n    d.property_product_type__value as product_type\nfrom {{ ref("deals") }} as d  -- crmsales.deals d\nleft outer join\n    {{ ref("deal_pipelines__stages") }} as s on s.stageid = d.property_dealstage__value --crmsales.deal_pipelines__stages s\nleft outer join  {{ ref("owners") }} as o on d.property_hubspot_owner_id__value = o.ownerid\nleft outer join {{ ref("deal_pipelines") }} dp on d.property_pipeline__value = dp.pipelineid\nlimit 500\n/* limit added automatically by dbt cloud */', 'compiled_code': '\n\nselect\n    d.dealid as deal_id,\n    d.property_backend_processor__value as backend_processor,\n    o.firstname + \' \' + o.lastname as deal_owner,\n    o.email as deal_owner_email,\n    d.property_createdate__value as created_at,\n    d.property_createdate__timestamp as created_at_timestamp,\n    d.property_closedate__value as closed_at,\n    d.property_closedate__timestamp as closed_at_timestamp,\n    case\n        when d.property_first_became_customer_applied_100___value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_customer_applied_100___value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_customer_applied_100,\n    d.property_first_became_customer_applied_100___timestamp\n    as first_became_customer_applied_100_timestamp,\n    s.label as deal_stage,\n    s.closedwon as closed_won,\n    d.property_hs_manual_forecast_category__value as manual_forecast_category,\n    dp.label as pipeline,\n    left(d.property_dealname__value, 200) as deal_name,\n    d.property_amount__value__double as amount,\n    d.property_annual_volume__value__double as approved_volume,\n    d.property_omid__value as stax_merchant_id,\n    d.property_mid__value as processor_merchant_id,\n    d.property_hubspot_team_id__value as hubspot_team_id,\n    case\n        when d.property_pended_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_pended_date__value as float) / 1000 * interval \'1 second\'\n    end as pended_at,\n    d.property_pended_date__timestamp as pended_at_timestamp,\n    case\n        when d.property_first_became_pended__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_pended__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_pended,\n    d.property_first_became_pended__timestamp as first_became_pended_timestamp,\n    case\n        when d.property_first_became_internal_pend__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_internal_pend__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_internal_pended,\n    d.property_first_became_internal_pend__timestamp\n    as first_became_internal_pended_timestamp,\n    d.property_underwriting_dropped_rejected_lost_reason__timestamp as rejected_at,\n    d.property_underwriting_dropped_rejected_lost_reason__value as reject_reason,\n    d.property_attrition_category__value as attrition_category,\n    d.property_attrition_core__value as attrition_subcategory,\n    case\n        when d.property_first_became_submitted__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_submitted__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as submitted_at,\n    d.property_first_became_submitted__timestamp as submitted_at_timestamp,\n    case\n        when d.property_eligible_for_subscription_repricing__value = \'true\'\n        then true\n        else false\n    end as "is_repricing_eligible",\n    left(d.property_company_name__value, 100) as company_name,\n    d.property_source__value as deal_source,\n    d.property_secondary_mid__value as secondary_mid,\n    case\n        when d.property_customer_attrition_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_customer_attrition_date__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as attrition_date,\n    d.property_billable_days_active__value as billable_days_active,\n    d.property_product_type__value as product_type\nfrom "redhouse"."dbt_mkondapi"."deals" as d  -- crmsales.deals d\nleft outer join\n    "redhouse"."dbt_mkondapi"."deal_pipelines__stages" as s on s.stageid = d.property_dealstage__value --crmsales.deal_pipelines__stages s\nleft outer join  "redhouse"."dbt_mkondapi"."owners" as o on d.property_hubspot_owner_id__value = o.ownerid\nleft outer join "redhouse"."dbt_mkondapi"."deal_pipelines" dp on d.property_pipeline__value = dp.pipelineid\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 148, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 403, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 68, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system.sql)\n  Could not find parent table for alias "redhouse.dbt_mkondapi.deals".', 'raw_code': '{{ config(materialized="table", unique_key="deal_id", sort="created_at") }}\n\nselect\n    d.dealid as deal_id,\n    d.property_backend_processor__value as backend_processor,\n    o.firstname + \' \' + o.lastname as deal_owner,\n    o.email as deal_owner_email,\n    d.property_createdate__value as created_at,\n    d.property_createdate__timestamp as created_at_timestamp,\n    d.property_closedate__value as closed_at,\n    d.property_closedate__timestamp as closed_at_timestamp,\n    case\n        when d.property_first_became_customer_applied_100___value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_customer_applied_100___value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_customer_applied_100,\n    d.property_first_became_customer_applied_100___timestamp\n    as first_became_customer_applied_100_timestamp,\n    s.label as deal_stage,\n    s.closedwon as closed_won,\n    d.property_hs_manual_forecast_category__value as manual_forecast_category,\n    dp.label as pipeline,\n    left(d.property_dealname__value, 200) as deal_name,\n    d.property_amount__value__double as amount,\n    d.property_annual_volume__value__double as approved_volume,\n    d.property_omid__value as stax_merchant_id,\n    d.property_mid__value as processor_merchant_id,\n    d.property_hubspot_team_id__value as hubspot_team_id,\n    case\n        when d.property_pended_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_pended_date__value as float) / 1000 * interval \'1 second\'\n    end as pended_at,\n    d.property_pended_date__timestamp as pended_at_timestamp,\n    case\n        when d.property_first_became_pended__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_pended__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_pended,\n    d.property_first_became_pended__timestamp as first_became_pended_timestamp,\n    case\n        when d.property_first_became_internal_pend__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_internal_pend__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_internal_pended,\n    d.property_first_became_internal_pend__timestamp\n    as first_became_internal_pended_timestamp,\n    d.property_underwriting_dropped_rejected_lost_reason__timestamp as rejected_at,\n    d.property_underwriting_dropped_rejected_lost_reason__value as reject_reason,\n    d.property_attrition_category__value as attrition_category,\n    d.property_attrition_core__value as attrition_subcategory,\n    case\n        when d.property_first_became_submitted__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_submitted__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as submitted_at,\n    d.property_first_became_submitted__timestamp as submitted_at_timestamp,\n    case\n        when d.property_eligible_for_subscription_repricing__value = \'true\'\n        then true\n        else false\n    end as "is_repricing_eligible",\n    left(d.property_company_name__value, 100) as company_name,\n    d.property_source__value as deal_source,\n    d.property_secondary_mid__value as secondary_mid,\n    case\n        when d.property_customer_attrition_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_customer_attrition_date__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as attrition_date,\n    d.property_billable_days_active__value as billable_days_active,\n    d.property_product_type__value as product_type\nfrom {{ ref("deals") }} as d  -- crmsales.deals d\nleft outer join\n    {{ ref("deal_pipelines__stages") }} as s on s.stageid = d.property_dealstage__value --crmsales.deal_pipelines__stages s\nleft outer join  {{ ref("owners") }} as o on d.property_hubspot_owner_id__value = o.ownerid\nleft outer join {{ ref("deal_pipelines") }} dp on d.property_pipeline__value = dp.pipelineid\nlimit 500\n/* limit added automatically by dbt cloud */', 'compiled_code': '\n\nselect\n    d.dealid as deal_id,\n    d.property_backend_processor__value as backend_processor,\n    o.firstname + \' \' + o.lastname as deal_owner,\n    o.email as deal_owner_email,\n    d.property_createdate__value as created_at,\n    d.property_createdate__timestamp as created_at_timestamp,\n    d.property_closedate__value as closed_at,\n    d.property_closedate__timestamp as closed_at_timestamp,\n    case\n        when d.property_first_became_customer_applied_100___value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_customer_applied_100___value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_customer_applied_100,\n    d.property_first_became_customer_applied_100___timestamp\n    as first_became_customer_applied_100_timestamp,\n    s.label as deal_stage,\n    s.closedwon as closed_won,\n    d.property_hs_manual_forecast_category__value as manual_forecast_category,\n    dp.label as pipeline,\n    left(d.property_dealname__value, 200) as deal_name,\n    d.property_amount__value__double as amount,\n    d.property_annual_volume__value__double as approved_volume,\n    d.property_omid__value as stax_merchant_id,\n    d.property_mid__value as processor_merchant_id,\n    d.property_hubspot_team_id__value as hubspot_team_id,\n    case\n        when d.property_pended_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_pended_date__value as float) / 1000 * interval \'1 second\'\n    end as pended_at,\n    d.property_pended_date__timestamp as pended_at_timestamp,\n    case\n        when d.property_first_became_pended__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_pended__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_pended,\n    d.property_first_became_pended__timestamp as first_became_pended_timestamp,\n    case\n        when d.property_first_became_internal_pend__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_internal_pend__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as first_became_internal_pended,\n    d.property_first_became_internal_pend__timestamp\n    as first_became_internal_pended_timestamp,\n    d.property_underwriting_dropped_rejected_lost_reason__timestamp as rejected_at,\n    d.property_underwriting_dropped_rejected_lost_reason__value as reject_reason,\n    d.property_attrition_category__value as attrition_category,\n    d.property_attrition_core__value as attrition_subcategory,\n    case\n        when d.property_first_became_submitted__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_first_became_submitted__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as submitted_at,\n    d.property_first_became_submitted__timestamp as submitted_at_timestamp,\n    case\n        when d.property_eligible_for_subscription_repricing__value = \'true\'\n        then true\n        else false\n    end as "is_repricing_eligible",\n    left(d.property_company_name__value, 100) as company_name,\n    d.property_source__value as deal_source,\n    d.property_secondary_mid__value as secondary_mid,\n    case\n        when d.property_customer_attrition_date__value = \'\'\n        then timestamp \'epoch\' + cast(0 as float) / 1000 * interval \'1 second\'\n        else\n            timestamp \'epoch\'\n            + cast(d.property_customer_attrition_date__value as float)\n            / 1000\n            * interval \'1 second\'\n    end as attrition_date,\n    d.property_billable_days_active__value as billable_days_active,\n    d.property_product_type__value as product_type\nfrom "redhouse"."dbt_mkondapi"."deals" as d  -- crmsales.deals d\nleft outer join\n    "redhouse"."dbt_mkondapi"."deal_pipelines__stages" as s on s.stageid = d.property_dealstage__value --crmsales.deal_pipelines__stages s\nleft outer join  "redhouse"."dbt_mkondapi"."owners" as o on d.property_hubspot_owner_id__value = o.ownerid\nleft outer join "redhouse"."dbt_mkondapi"."deal_pipelines" dp on d.property_pipeline__value = dp.pipelineid\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2023-01-24 15:30:15.390508 (Thread-1050): handling poll request
+2023-01-24 15:30:15.390856 (Thread-1050): 15:30:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855563a9d0>]}
+2023-01-24 15:30:15.391755 (Thread-1050): sending response (<Response 33287 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:15.400635 (Thread-1051): handling ps request
+2023-01-24 15:30:15.400889 (Thread-1051): 15:30:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855563ad90>]}
+2023-01-24 15:30:15.401757 (Thread-1051): sending response (<Response 8486 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:15.412316 (Thread-1052): handling status request
+2023-01-24 15:30:15.412539 (Thread-1052): 15:30:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561d100>]}
+2023-01-24 15:30:15.412946 (Thread-1052): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:15.422988 (Thread-1053): handling poll request
+2023-01-24 15:30:15.423215 (Thread-1053): 15:30:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561d0a0>]}
+2023-01-24 15:30:15.423886 (Thread-1053): sending response (<Response 42638 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:15.728673 (Thread-1054): handling status request
+2023-01-24 15:30:15.729091 (Thread-1054): 15:30:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555629370>]}
+2023-01-24 15:30:15.729559 (Thread-1054): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:16.702770 (Thread-1055): handling poll request
+2023-01-24 15:30:16.703122 (Thread-1055): 15:30:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555628400>]}
+2023-01-24 15:30:16.703889 (Thread-1055): sending response (<Response 42638 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:17.393882 (Thread-1056): handling ps request
+2023-01-24 15:30:17.394455 (Thread-1056): 15:30:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85556174c0>]}
+2023-01-24 15:30:17.396139 (Thread-1056): sending response (<Response 8486 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:17.715498 (Thread-1057): handling status request
+2023-01-24 15:30:17.715857 (Thread-1057): 15:30:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617a90>]}
+2023-01-24 15:30:17.716316 (Thread-1057): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:21.436569 (Thread-1058): handling status request
+2023-01-24 15:30:21.436951 (Thread-1058): 15:30:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85556177c0>]}
+2023-01-24 15:30:21.437427 (Thread-1058): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:34.831043 (Thread-1059): handling status request
+2023-01-24 15:30:34.831461 (Thread-1059): 15:30:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617e80>]}
+2023-01-24 15:30:34.831931 (Thread-1059): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:34.850207 (Thread-1060): handling ps request
+2023-01-24 15:30:34.850497 (Thread-1060): 15:30:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617730>]}
+2023-01-24 15:30:34.851460 (Thread-1060): sending response (<Response 8486 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:35.067053 (Thread-1061): handling ps request
+2023-01-24 15:30:35.067525 (Thread-1061): 15:30:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555627f10>]}
+2023-01-24 15:30:35.068469 (Thread-1061): sending response (<Response 8486 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:35.374792 (Thread-1062): handling status request
+2023-01-24 15:30:35.375194 (Thread-1062): 15:30:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855562ee20>]}
+2023-01-24 15:30:35.375724 (Thread-1062): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:30:35.618031 (Thread-1063): handling ps request
+2023-01-24 15:30:35.618398 (Thread-1063): 15:30:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555635700>]}
+2023-01-24 15:30:35.619337 (Thread-1063): sending response (<Response 8486 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:31:00.162570 (Thread-1064): handling status request
+2023-01-24 15:31:00.163126 (Thread-1064): 15:31:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555635580>]}
+2023-01-24 15:31:00.163898 (Thread-1064): sending response (<Response 2020 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:31:00.173432 (Thread-1065): handling list request
+2023-01-24 15:31:00.173820 (Thread-1065): 15:31:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555635040>]}
+2023-01-24 15:31:00.209099 (Thread-1065): 15:31:00  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553f90d0>]}
+2023-01-24 15:31:00.209820 (Thread-1065): 15:31:00  Found 6 models, 0 tests, 0 snapshots, 0 analyses, 327 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2023-01-24 15:31:00.210295 (Thread-1065): 15:31:00  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8554e569a0>]}
+2023-01-24 15:31:00.215159 (Thread-1065): sending response (<Response 5141 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:31:00.286299 (Thread-1066): handling ps request
+2023-01-24 15:31:00.286648 (Thread-1066): 15:31:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617790>]}
+2023-01-24 15:31:00.287659 (Thread-1066): sending response (<Response 8777 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:31:00.626938 (Thread-1067): handling poll request
+2023-01-24 15:31:00.627305 (Thread-1067): 15:31:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617490>]}
+2023-01-24 15:31:00.628069 (Thread-1067): sending response (<Response 10500 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:31:00.635912 (Thread-1068): handling status request
+2023-01-24 15:31:00.636153 (Thread-1068): 15:31:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85556177c0>]}
+2023-01-24 15:31:00.636539 (Thread-1068): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:31:29.799961 (Thread-1069): handling poll request
+2023-01-24 15:31:29.800329 (Thread-1069): 15:31:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8555617b80>]}
+2023-01-24 15:31:29.824486 (Thread-1069): sending response (<Response 2014361 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:31:29.829887 (Thread-1070): handling status request
+2023-01-24 15:31:29.830148 (Thread-1070): 15:31:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855561ddc0>]}
+2023-01-24 15:31:29.830564 (Thread-1070): sending response (<Response 2020 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:31:29.882294 (Thread-1071): handling list request
+2023-01-24 15:31:29.882593 (Thread-1071): 15:31:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553f3070>]}
+2023-01-24 15:31:29.914541 (Thread-1071): 15:31:29  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553e1910>]}
+2023-01-24 15:31:29.914991 (Thread-1071): 15:31:29  Found 6 models, 0 tests, 0 snapshots, 0 analyses, 327 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2023-01-24 15:31:29.915240 (Thread-1071): 15:31:29  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553f9280>]}
+2023-01-24 15:31:29.917036 (Thread-1071): sending response (<Response 2398 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 15:31:53.455862 (Thread-1072): handling ps request
+2023-01-24 15:31:53.456233 (Thread-1072): 15:31:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553e1940>]}
+2023-01-24 15:31:53.479969 (Thread-1072): sending response (<Response 9068 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:32.367472 (Thread-1073): handling status request
+2023-01-24 16:15:32.369168 (Thread-1073): 16:15:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553db490>]}
+2023-01-24 16:15:32.369637 (Thread-1073): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:33.045037 (Thread-1074): handling status request
+2023-01-24 16:15:33.045411 (Thread-1074): 16:15:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553db3d0>]}
+2023-01-24 16:15:33.045901 (Thread-1074): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:38.037646 (Thread-1075): handling poll request
+2023-01-24 16:15:38.038043 (Thread-1075): 16:15:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553db130>]}
+2023-01-24 16:15:38.059504 (Thread-1075): sending response (<Response 2014361 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:38.632337 (Thread-1076): handling status request
+2023-01-24 16:15:38.632685 (Thread-1076): 16:15:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553ecee0>]}
+2023-01-24 16:15:38.633136 (Thread-1076): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:38.643481 (Thread-1077): handling ps request
+2023-01-24 16:15:38.643745 (Thread-1077): 16:15:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553ec250>]}
+2023-01-24 16:15:38.644613 (Thread-1077): sending response (<Response 9068 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:39.556130 (Thread-1078): handling ps request
+2023-01-24 16:15:39.556475 (Thread-1078): 16:15:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553e8c40>]}
+2023-01-24 16:15:39.557372 (Thread-1078): sending response (<Response 9068 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:39.925088 (Thread-1079): handling poll request
+2023-01-24 16:15:39.925423 (Thread-1079): 16:15:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553e8130>]}
+2023-01-24 16:15:39.926009 (Thread-1079): sending response (<Response 5022 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:39.998600 (Thread-1080): handling status request
+2023-01-24 16:15:39.998946 (Thread-1080): 16:15:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85553e8370>]}
+2023-01-24 16:15:39.999452 (Thread-1080): sending response (<Response 2037 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:54.890290 (Thread-1081): 16:15:54  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2023-01-24 16:15:54.890607 (Thread-1081): 16:15:54  Partial parsing: added file: dbt_pov://models/staging/v2_transactions.sql
+2023-01-24 16:15:54.896286 (Thread-1081): 16:15:54  1699: static parser successfully parsed staging/v2_transactions.sql
+2023-01-24 16:15:54.948896 (Thread-1081): 16:15:54  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_test
+
+2023-01-24 16:15:54.954146 (Thread-1081): 16:15:54  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f854db69370>]}
+2023-01-24 16:15:55.665652 (Thread-1082): handling status request
+2023-01-24 16:15:55.665997 (Thread-1082): 16:15:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855560a700>]}
+2023-01-24 16:15:55.666460 (Thread-1082): sending response (<Response 2039 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:56.137730 (Thread-1083): handling ps request
+2023-01-24 16:15:56.138086 (Thread-1083): 16:15:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855560a520>]}
+2023-01-24 16:15:56.139030 (Thread-1083): sending response (<Response 9068 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:56.190258 (Thread-1084): handling ps request
+2023-01-24 16:15:56.190620 (Thread-1084): 16:15:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855560a1c0>]}
+2023-01-24 16:15:56.191611 (Thread-1084): sending response (<Response 9068 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:56.601113 (Thread-1085): handling status request
+2023-01-24 16:15:56.601466 (Thread-1085): 16:15:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f855560a2e0>]}
+2023-01-24 16:15:56.601919 (Thread-1085): sending response (<Response 2039 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:15:59.989904 (Thread-1086): handling ps request
+2023-01-24 16:15:59.990256 (Thread-1086): 16:15:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85555f9f10>]}
+2023-01-24 16:15:59.991202 (Thread-1086): sending response (<Response 9068 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:16:00.005523 (Thread-1087): handling status request
+2023-01-24 16:16:00.005770 (Thread-1087): 16:16:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85555f9b50>]}
+2023-01-24 16:16:00.006152 (Thread-1087): sending response (<Response 2039 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:16:00.263568 (Thread-1088): handling poll request
+2023-01-24 16:16:00.263923 (Thread-1088): 16:16:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85555f9ac0>]}
+2023-01-24 16:16:00.264610 (Thread-1088): sending response (<Response 42638 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:16:00.380997 (Thread-1089): handling ps request
+2023-01-24 16:16:00.381347 (Thread-1089): 16:16:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85555f9610>]}
+2023-01-24 16:16:00.382277 (Thread-1089): sending response (<Response 9068 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:16:00.628670 (Thread-1090): handling status request
+2023-01-24 16:16:00.629041 (Thread-1090): 16:16:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85555f91c0>]}
+2023-01-24 16:16:00.629500 (Thread-1090): sending response (<Response 2039 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:16:06.858318 (Thread-1091): handling ps request
+2023-01-24 16:16:06.858681 (Thread-1091): 16:16:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85555f9460>]}
+2023-01-24 16:16:06.859674 (Thread-1091): sending response (<Response 9068 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:16:06.873162 (Thread-1092): handling ps request
+2023-01-24 16:16:06.873536 (Thread-1092): 16:16:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f854da6b910>]}
+2023-01-24 16:16:06.874775 (Thread-1092): sending response (<Response 9068 bytes [200 OK]>) to 10.0.139.23
+2023-01-24 16:16:07.169237 (Thread-1093): handling status request
+2023-01-24 16:16:07.169596 (Thread-1093): 16:16:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '64fbf21e-52cc-4c7e-a791-14f97a018338', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f854da6bb80>]}
+2023-01-24 16:16:07.170095 (Thread-1093): sending response (<Response 2039 bytes [200 OK]>) to 10.0.139.23

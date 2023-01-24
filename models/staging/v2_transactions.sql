@@ -1,4 +1,5 @@
 {{ config(materialized="table", 
     unique_key="merchant_id") }}
+
     
-select * from fatt.registrations
+select * from processor_v2.transactions
