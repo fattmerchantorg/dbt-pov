@@ -1,6 +1,4 @@
-{{ config(materialized="table", 
-    unique_key="deal_id", 
-    sort="created_at") }}
+{{ config(materialized="table", unique_key="deal_id", sort="created_at") }}
 
 select
     d.dealid as deal_id,
@@ -94,9 +92,8 @@ select
     end as attrition_date,
     d.property_billable_days_active__value as billable_days_active,
     d.property_product_type__value as product_type
-from {{ ref('crmsales-deals') }} --crmsales.deals d
+from {{ ref("deals") }} as d  -- crmsales.deals d
 left outer join
-    crmsales.deal_pipelines__stages s on s.stageid = d.property_dealstage__value
-left outer join crmsales.owners o on d.property_hubspot_owner_id__value = o.ownerid
-left outer join crmsales.deal_pipelines dp on d.property_pipeline__value = dp.pipelineid
-;
+    {{ ref("deal_pipelines__stages") }} as s on s.stageid = d.property_dealstage__value --crmsales.deal_pipelines__stages s
+left outer join  {{ ref("owners") }} as o on d.property_hubspot_owner_id__value = o.ownerid
+left outer join {{ ref("deal_pipelines") }} dp on d.property_pipeline__value = dp.pipelineid
