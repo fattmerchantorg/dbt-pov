@@ -1,8 +1,10 @@
-{{ config(materialized="table", unique_key="deal_id") }}
+
 
 select
     d.dealid as deal_id,
     d.property_backend_processor__value as backend_processor,
+    o.firstname + ' ' + o.lastname as deal_owner,
+    o.email as deal_owner_email,
     d.property_createdate__value as created_at,
     d.property_createdate__timestamp as created_at_timestamp,
     d.property_closedate__value as closed_at,
@@ -18,7 +20,10 @@ select
     end as first_became_customer_applied_100,
     d.property_first_became_customer_applied_100___timestamp
     as first_became_customer_applied_100_timestamp,
+    s.label as deal_stage,
+    s.closedwon as closed_won,
     d.property_hs_manual_forecast_category__value as manual_forecast_category,
+    dp.label as pipeline,
     left(d.property_dealname__value, 200) as deal_name,
     d.property_amount__value__double as amount,
     d.property_annual_volume__value__double as approved_volume,
@@ -86,12 +91,9 @@ select
             * interval '1 second'
     end as attrition_date,
     d.property_billable_days_active__value as billable_days_active,
-    d.property_product_type__value as product_type,
-    d.property_annual_exposure__value__double as underwriting_exposure,
-    coalesce(cast(d.property_pf_risk_score__value__double as varchar), d.property_pf_risk_score__value__string) as risk_score,
-    d.property_uw__delayed_delivery___cnp_ach__value,
-    d.property_uw__delayed_delivery__value__double,
-    d.property_credit_score__value as credit_score
-from crmsales.deals as d
-
-
+    d.property_product_type__value as product_type
+from "redhouse"."dbt_mkondapi"."deals" as d  -- crmsales.deals d
+left outer join
+    "redhouse"."dbt_mkondapi"."deal_pipelines__stages" as s on s.stageid = d.property_dealstage__value
+left outer join  "redhouse"."dbt_mkondapi"."owners" as o on d.property_hubspot_owner_id__value = o.ownerid
+left outer join "redhouse"."dbt_mkondapi"."deal_pipelines" as dp on d.property_pipeline__value = dp.pipelineid;
