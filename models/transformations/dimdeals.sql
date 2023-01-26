@@ -38,7 +38,7 @@ select
     d.deal_source,
     d.secondary_mid,
     d.attrition_date,
-    d.=billable_days_active,
+    d.billable_days_active,
     d.product_type,
     d.underwriting_exposure,
     d.risk_score,
