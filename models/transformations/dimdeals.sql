@@ -11,8 +11,8 @@ select
     d.closed_at_timestamp,
     d.first_became_customer_applied_100,
     d.first_became_customer_applied_100_timestamp,
-    s.deal_stage,
-    s.closed_won,
+    -- s.deal_stage,
+    -- s.closed_won,
     d.manual_forecast_category,
     dp.label as pipeline,
     d.deal_name,
@@ -45,9 +45,11 @@ select
     d.property_uw__delayed_delivery___cnp_ach__value,
     d.property_uw__delayed_delivery__value__double,
     d.credit_score,
+    d.property_hubspot_owner_id__value,
+    d.property_pipeline__value,
     d.property_dealstage__value
-from {{ ref('deals') }} as d  -- crmsales.deals d
+from {{ ref('deals') }} as d
 left outer join
-    {{ ref('deal_pipelines__stages') }} as s on s.stageid = d.property_dealstage__value
+    {{ ref('deal_pipelines__stages') }} as s on d.property_dealstage__value = s.stageid
 left outer join  {{ ref('owners') }} as o on d.property_hubspot_owner_id__value = o.ownerid
 left outer join {{ ref('deal_pipelines') }} as dp on d.property_pipeline__value = dp.pipelineid
