@@ -92,7 +92,9 @@ select
     d.property_uw__delayed_delivery___cnp_ach__value,
     d.property_uw__delayed_delivery__value__double,
     d.property_credit_score__value as credit_score,
-    d.property_dealstage__value
+    d.property_dealstage__value,
+    d.property_hubspot_owner_id__value,
+    d.property_pipeline__value
 from crmsales.deals as d
 
 
