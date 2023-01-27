@@ -44,9 +44,10 @@ select
     d.risk_score,
     d.property_uw__delayed_delivery___cnp_ach__value,
     d.property_uw__delayed_delivery__value__double,
-    d.credit_score
+    d.credit_score,,
+    d.property_dealstage__value
 from {{ ref('deals') }} as d  -- crmsales.deals d
 left outer join
     {{ ref('deal_pipelines__stages') }} as s on s.stageid = d.property_dealstage__value
 left outer join  {{ ref('owners') }} as o on d.property_hubspot_owner_id__value = o.ownerid
-left outer join {{ ref('deal_pipelines') }} as dp on d.property_pipeline__value = dp.pipelineid;
+left outer join {{ ref('deal_pipelines') }} as dp on d.property_pipeline__value = dp.pipelineid
