@@ -1,4 +1,8 @@
 {{ config(materialized="table", 
     unique_key="ownerid") }}
 
-select * from crmsales.owners
+select
+    o.ownerid,
+    o.firstname + ' ' + o.lastname as deal_owner,
+    o.email as deal_owner_email
+ from crmsales.owners as o
