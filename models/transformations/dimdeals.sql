@@ -44,7 +44,7 @@ select
     d.risk_score,
     d.property_uw__delayed_delivery___cnp_ach__value,
     d.property_uw__delayed_delivery__value__double,
-    d.credit_score,,
+    d.credit_score,
     d.property_dealstage__value
 from {{ ref('deals') }} as d  -- crmsales.deals d
 left outer join
