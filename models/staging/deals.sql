@@ -93,7 +93,8 @@ select
     coalesce(cast(d.property_pf_risk_score__value__double as varchar), d.property_pf_risk_score__value__string) as risk_score,
     d.property_uw__delayed_delivery___cnp_ach__value,
     d.property_uw__delayed_delivery__value__double,
-    d.property_credit_score__value as credit_score
+    d.property_credit_score__value as credit_score,
+    d.property_dealstage__value
 from crmsales.deals as d
 
 
