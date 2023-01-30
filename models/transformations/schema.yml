@@ -1,0 +1,159 @@
+version: 2
+
+# {{ codegen.generate_model_yaml(
+#     model_names=['dimdeals']
+# ) }}
+
+models:
+
+  - name: dimdeals
+    config:
+      tags: ["hourly"]
+    description: "This table has the parent level deal information from HubSpot (account 467991)"
+    columns:
+      - name: deal_id
+        description: "primary key of the table"
+        tests:
+          - unique
+          - not_null
+
+      - name: backend_processor
+        description: ""
+
+      - name: deal_owner
+        description: "Stax's POC"
+
+      - name: deal_owner_email
+        description: "Stax's POC email for the deal"
+
+      - name: created_at
+        description: "time deal was created"
+        type: timestamp
+
+      - name: created_at_timestamp
+        description: ""
+
+      - name: closed_at
+        description: "time deal was closed"
+
+      - name: closed_at_timestamp
+        description: ""
+
+      - name: first_became_customer_applied_100
+        description: "time the deal was moved past initial screening"
+
+      - name: first_became_customer_applied_100_timestamp
+        description: ""
+
+      - name: manual_forecast_category
+        description: ""
+
+      - name: pipeline
+        description: ""
+        # tests:
+        #   - accepted_values: 
+        #       values: ["Stax Pay Pipeline", "CardX", "Payment Depot Sales Pipeline", "Stax Connect Pipeline", "Stax Bill"]
+        # - relationships:
+        #     to: ref('customers')
+        #     field: id
+
+      - name: deal_name
+        description: ""
+
+      - name: amount
+        description: ""
+
+      - name: approved_volume
+        description: ""
+
+      - name: stax_merchant_id
+        description: ""
+        # tests:
+        #   - dbt_utils.not_empty_string
+
+      - name: processor_merchant_id
+        description: ""
+
+      - name: hubspot_team_id
+        description: ""
+
+      - name: pended_at
+        description: ""
+
+      - name: pended_at_timestamp
+        description: ""
+
+      - name: first_became_pended
+        description: "pend time if Stax Connect"
+
+      - name: first_became_pended_timestamp
+        description: ""
+
+      - name: first_became_internal_pended
+        description: "pend time if Stax Pay"
+
+      - name: first_became_internal_pended_timestamp
+        description: ""
+
+      - name: rejected_at
+        description: ""
+
+      - name: reject_reason
+        description: ""
+
+      - name: attrition_category
+        description: ""
+
+      - name: attrition_subcategory
+        description: ""
+
+      - name: submitted_at
+        description: ""
+
+      - name: submitted_at_timestamp
+        description: ""
+
+      - name: is_repricing_eligible
+        description: ""
+
+      - name: company_name
+        description: ""
+
+      - name: deal_source
+        description: ""
+
+      - name: secondary_mid
+        description: ""
+
+      - name: attrition_date
+        description: ""
+
+      - name: billable_days_active
+        description: ""
+
+      - name: product_type
+        description: ""
+
+      - name: underwriting_exposure
+        description: ""
+
+      - name: risk_score
+        description: ""
+
+      - name: property_uw__delayed_delivery___cnp_ach__value
+        description: ""
+
+      - name: property_uw__delayed_delivery__value__double
+        description: ""
+
+      - name: credit_score
+        description: ""
+
+      - name: property_hubspot_owner_id__value
+        description: ""
+
+      - name: property_pipeline__value
+        description: ""
+
+      - name: property_dealstage__value
+        description: ""
