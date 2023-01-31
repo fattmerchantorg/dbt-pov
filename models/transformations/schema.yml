@@ -4,9 +4,27 @@ version: 2
 #     model_names=['dimdeals']
 # ) }}
 
-models:
 
+exposures:
+
+  - name: deals
+    label: Deals
+    type: dashboard
+    maturity: high
+    url: https://lookerstudio.google.com/u/0/reporting/3e9ffba8-36e4-4ed2-acb3-5a1787e0b3d9/page/5uRDD
+    description: >
+      "Deals Data coming from Hubspot"
+
+    depends_on:
+      - ref('dimdeals')
+
+    owner:
+      name: Manu Kondapi
+      email: manu.kondapi@staxpayments.com
+
+models:
   - name: dimdeals
+    url: https://lookerstudio.google.com/u/0/reporting/9422acf4-a15c-46d6-acee-3a585ea9b4a2/page/gVMDD
     config:
       tags: ["hourly"]
     description: "This table has the parent level deal information from HubSpot (account 467991)"
