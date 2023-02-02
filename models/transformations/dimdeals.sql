@@ -45,6 +45,7 @@ select
     d.property_uw__delayed_delivery___cnp_ach__value,
     d.property_uw__delayed_delivery__value__double,
     d.credit_score,
+    d.underwriter,
     d.property_hubspot_owner_id__value,
     d.property_pipeline__value,
     d.property_dealstage__value
