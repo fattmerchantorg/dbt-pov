@@ -4,6 +4,8 @@ version: 2
 #     model_names=['dimdeals']
 # ) }}
 
+# dbt run-operation generate_model_yaml --args '{"model_names": ["dimdeals"]}'
+
 
 exposures:
 
