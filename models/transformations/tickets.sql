@@ -1,7 +1,7 @@
 {{ config(materialized="table", unique_key="ticket_id", sort="created_date") }}
 
 select 
-t.ticket_id,
+distinct t.ticket_id,
 t.merchant_id,
 t.account_id,
 t.subject,
@@ -25,6 +25,4 @@ t.uw_high_ticket,
 t.time_to_close,
 tph.time_diff as waiting_on_merchant_time
 from {{ ref('hubspot_tickets') }} as t
-left join (select * from {{ ref('hubspot_ticket_property_history')}} where value = '360828') as tph on t.ticket_id = tph.ticket_id 
-
-
+left join (select distinct ticket_id, value, sum(time_diff) as time_diff  from {{ ref('hubspot_ticket_property_history')}} where value = '360828' group by ticket_id, value) as tph on t.ticket_id = tph.ticket_id
