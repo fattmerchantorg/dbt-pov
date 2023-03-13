@@ -8,9 +8,8 @@ property_omid as account_id,
 property_subject as subject,
 property_createdate as created_date,
 property_closed_date as ticket_closed_date,
-property_deal_close_date as deal_closed_date,
+timestamp 'epoch' + cast(property_deal_close_date AS bigint)/1000 * interval '1 second' as deal_closedwon_date,
 case when property_hs_pipeline = '360813' then 'Risk / FBH' end as pipeline,
---property_hs_pipeline as pipeline, --   Risk/FBH Pipeline = 360813
 property_hs_ticket_category as ticket_category,
 property_hubspot_owner_id as ticket_owner_id,
 case 
@@ -40,24 +39,15 @@ case
      else ''
      end
      as ticket_status,
---property_hs_ticket_priority as ticket_priority,
 property_source_type as source,
 property_subcategory_risk_ as risk_subcategory,
+property_hs_lastmodifieddate as last_modified_date,
+property_hs_updated_by_user_id as updated_by_userid,
 property_last_reply_date as last_customer_reply_date,
 property_hs_lastcontacted as last_contacted,
 property_backend_processor as backend_processor,
 property_uw_ticket_category as uw_ticket_category,
-property_uw_high_ticket as uw_high_ticket
+property_uw_high_ticket as uw_high_ticket,
+datediff('hours', '1970/01/01', timestamp 'epoch' + cast(property_time_to_close AS bigint)/1000 * interval '1 second') as time_to_close
 from hubspot_deals.ticket
 where property_hs_pipeline  = '360813' -- Risk/FBH Pipeline
-
-
--- ticket ID
--- create date
--- status
--- pipeline: Risk/FBH
--- ticket UW owner
--- close date (final date)
--- subcategory (manually assigned value given by Carlos' team)
--- last activity date
--- time to close (includes waiting on external parties)
